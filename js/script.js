@@ -2,5 +2,6 @@ let text = 'Velociraptor is a genus of herbivorous ceratopsid dinosaur that firs
 let dinosaur = 'triceratops';
 let bigDinosaur = dinosaur.toUpperCase();
 let rightDinosaur = text.replace('Velociraptor', bigDinosaur);
-let finalDinosaur = rightDinosaur.substr(0,72);
+let half = rightDinosaur.length/2;
+let finalDinosaur = rightDinosaur.substr(0,half);
 console.log(finalDinosaur);
